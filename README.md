@@ -16,6 +16,7 @@
   *forex summary*   
   and your favorite financial sites will be opened in your browser at once.       
   For more detailed descriptions of functions and usage commands, please refer to help.py 
+  
 ---------------------------------------
 ##Getting started   
 ###Prerequisites   
