@@ -1,6 +1,6 @@
 # This file retrieves the json data from
 # https://www.alphavantage.co/support/#api-key
-import json, requests, webbrowser
+import json, requests
 API_key = 'ZLP5TK3FDZ1EGJ7V'
 def exchg_rate(from_rate, to_rate):
     """   exchg_rate: A function that takes in

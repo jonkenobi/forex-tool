@@ -54,7 +54,8 @@ if len(formatted_argv) == 1:
 if len(formatted_argv) == 2:
     if formatted_argv[1].lower() == 'summary':
         print('Opening forex news...')
-        webbrowser.open('https://www.gloryskygroup.com/')
+        webbrowser.open('https://www.bloomberg.com/')
+        webbrowser.open('https://www.wsj.com/')
         webbrowser.open('https://www.gaitameonline.com/academy01.jsp')
         sys.exit()
     if formatted_argv[1].lower() == 'help':
