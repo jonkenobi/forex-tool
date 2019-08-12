@@ -18,14 +18,14 @@
   For more detailed descriptions of functions and usage commands, please refer to help.py 
   
 ---------------------------------------
-##Getting started   
-###Prerequisites   
+## Getting started   
+### Prerequisites   
    ```
     1. Python3  
     2. pip install requests
     3. Git (Optional)
   ```
-###Installing 
+### Installing 
    1. Open your command line terminal
    2. Clone or download the repository
    ```
@@ -46,11 +46,11 @@
  ```
    6,000 JPY is 54 USD 
   ```
-###Further options
-  #####Add the .bat file to path variables to make access even easier 
+### Further options
+  ##### Add the .bat file to path variables to make access even easier 
   1. Navigate to forex-tool/forex.bat
   2. Change the absolute file path to point to forex.py and copy it 
   3. Navigate to your computer's path variables and paste the absolute path to PATH
-  ####Done!
+  #### Done!
   Now you can either run your forex commands directly in the cmd 
   or press win+R and type your forex commands there!
