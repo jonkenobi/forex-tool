@@ -1,18 +1,10 @@
 # !python 3
-# forex.py--A basic forex tool that can retrieve currency exchange rates and
-#               show a cash value in another currency
-
-#Usage: forex --- Retrive USD/JPY rates
-#           forex  <From currency> <To currency>: Retrieve from/to currency rate
-#           forex  <num> <From currency> <To currency>:  Show how much <num> <From currency>
-#                   is in <To currency>
-#           forex <currency> info: open xe.com's detail info on that currency
-#           forex summary: open gloryskygroup HP
-#           forex help: print this usage document
-#           *all currencies are expressed in codes
+# forex.py--A basic forex tool
+# for detailed usages please refer to help.py
 
 import sys, webbrowser, re
 from retrievejson import exchg_rate
+from help import HELPER_TEXT
 
 # ----------helper code------
 def quickcur(argv):
@@ -66,14 +58,7 @@ if len(formatted_argv) == 2:
         webbrowser.open('https://www.gaitameonline.com/academy01.jsp')
         sys.exit()
     if formatted_argv[1].lower() == 'help':
-        print('''Usage: forex --- Retrieve USD/JPY rates
-       forex  <From currency> <To currency>: Retrieve from/to currency rate
-       forex  <num> <From currency> <To currency>:  Show how much <num> <From currency>
-                  is  in <To currency>
-       forex <currency> info: open xe.com's detail info on that currency
-       forex summary: open gloryskygroup HP
-       forex help: print usage document
-       *all currencies are expressed in codes ''')
+        print(HELPER_TEXT)
 
 # if len = 3, open currency info or else exchange rate
 elif len(formatted_argv) == 3:
